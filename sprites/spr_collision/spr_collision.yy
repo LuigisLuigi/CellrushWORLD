@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_collision",
   "bboxMode":0,
-  "bbox_bottom":32,
+  "bbox_bottom":31,
   "bbox_left":32,
   "bbox_right":63,
   "bbox_top":0,

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"spr_player_collision",
+  "%Name":"scr_player_state_free",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"spr_player_collision",
+  "name":"scr_player_state_free",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
