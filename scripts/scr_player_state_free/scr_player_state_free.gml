@@ -1,4 +1,7 @@
 function scr_player_state_free(){
+	//var _collided = scr_player_collision();
+	//note: when this variable above is not commented out, you got 2x speed for some reason
+	
 	//movement
 	h_speed = lengthdir_x(input_magnitude * speed_walk, input_direction);
 	v_speed = lengthdir_y(input_magnitude * speed_walk, input_direction);
@@ -16,4 +19,12 @@ function scr_player_state_free(){
 
 	//updating image index
 	scr_player_animate_sprite();
+	
+	/*
+	if(_collided)
+	{
+		scr_screen_shake(8, 30)
+	}
+	*/
+	//note: collision works, save for battles later
 }
